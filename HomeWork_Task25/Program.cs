@@ -26,8 +26,8 @@ int GetNumber(string message)
     return result;
 }
 
-int number1 = GetNumber("Введите число 1: ");
-int number2 = GetNumber("Введите число 2: ");
+int number1 = GetNumber("Введите число: ");
+int number2 = GetNumber("Введите степень числа: ");
 int result = 1;
 {
     for (int i = 1; i <= number2; i++)
